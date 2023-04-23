@@ -1,0 +1,15 @@
+[package]
+name = "multibuds_pinebuds_rust_fw"
+version = "0.1.0"
+authors = ["The MultiBuds Developers"]
+description = "The MultiBuds firmware for the PineBuds, written in Rust."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/open-morphs/MultiBuds"
+edition = "2021"
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.3"
+embedded-hal = "0.2.7"
+panic-abort = "0.3.2"
+panic-halt = "0.2.0"
